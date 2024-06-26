@@ -16,7 +16,7 @@ function showNotes(){
 }
 
 function addNote(){
-    const notes = [];
+    const notes = getNotes();
     const noteObject = {
         id: generateId(),
         content: noteInput.value,
